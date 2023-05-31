@@ -15,4 +15,3 @@ public:
     
     friend std::ostream &operator<<(std::ostream &os, Node& node);
 };
-

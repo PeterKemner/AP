@@ -38,10 +38,8 @@ int main(){
         std::cout << "Er bestaat geen edge tussen deze nodes";
     }
 
-
-
     std::vector<Node*> nodesInPath = {&a, &b, &c, &d, &f};
 
-    //std::cout << "Cost of path " << g.getCostOfPath(nodesInPath) << "\n";
+    std::cout << "Cost of path " << g.getCostOfPath(nodesInPath) << "\n";
 
 }
